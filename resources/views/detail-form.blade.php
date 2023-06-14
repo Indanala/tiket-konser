@@ -14,6 +14,7 @@
                 <li>Tanggal Daftar   :{{$request->created_at}}</li>
             </ul>
         </div>
+         <h4> Silahkan ScreenShot Nomor ID untuk dibawa sesuai Jadwal Konser </h4>
         <div>
             <a href="{{url('/daftar-tiket')}}" type="button" class="btn btn-danger my-2">Kembali</a>
         </div>
